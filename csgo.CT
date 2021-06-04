@@ -20,18 +20,19 @@
             <CheatEntry>
               <ID>2642</ID>
               <Description>"[Client] Ent Object Ptr"</Description>
-              <LastState Value="6C63A200" RealAddress="292C20DC"/>
+              <LastState Value="835AEB50" RealAddress="5BAF215C"/>
               <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>client.dll+4DA20DC</Address>
+              <Address>client.dll+4DA215C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>2555</ID>
               <Description>"[Client] Health (2^15)"</Description>
-              <LastState Value="100" RealAddress="6C63A300"/>
+              <LastState Value="100" RealAddress="835AEC50"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>2 Bytes</VariableType>
-              <Address>client.dll+4DA20DC</Address>
+              <Address>client.dll+4DA215C</Address>
               <Offsets>
                 <Offset>100</Offset>
               </Offsets>
@@ -39,10 +40,10 @@
             <CheatEntry>
               <ID>2556</ID>
               <Description>"[Client] Armor"</Description>
-              <LastState Value="100" RealAddress="6C64557C"/>
+              <LastState Value="100" RealAddress="835B9ECC"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Byte</VariableType>
-              <Address>client.dll+4DA20DC</Address>
+              <Address>client.dll+4DA215C</Address>
               <Offsets>
                 <Offset>B37C</Offset>
               </Offsets>
@@ -50,10 +51,10 @@
             <CheatEntry>
               <ID>2557</ID>
               <Description>"[Client] Money (2^16)"</Description>
-              <LastState Value="8500" RealAddress="6C645568"/>
+              <LastState Value="1750" RealAddress="835B9EB8"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>2 Bytes</VariableType>
-              <Address>client.dll+4DA20DC</Address>
+              <Address>client.dll+4DA215C</Address>
               <Offsets>
                 <Offset>B368</Offset>
               </Offsets>
@@ -61,87 +62,57 @@
             <CheatEntry>
               <ID>2641</ID>
               <Description>"[Server] Ent Object Ptr"</Description>
-              <LastState Value="7AA21AEC" RealAddress="6EE4E8F0"/>
+              <LastState Value="56951B90" RealAddress="836D7370"/>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"server.dll"+00A1B3C0</Address>
+              <Address>server.dll+A80804</Address>
               <Offsets>
                 <Offset>0</Offset>
-                <Offset>C</Offset>
-                <Offset>24C</Offset>
-                <Offset>110</Offset>
-                <Offset>414</Offset>
-                <Offset>0</Offset>
-                <Offset>24</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
-              <ID>2561</ID>
-              <Description>"[Server] Health (2^15)"</Description>
-              <LastState Value="100" RealAddress="6EE4EB20"/>
+              <ID>2930</ID>
+              <Description>"[Server] Health"</Description>
+              <LastState Value="100" RealAddress="836D75A0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>2 Bytes</VariableType>
-              <Address>"server.dll"+00A1B3C0</Address>
+              <Address>server.dll+A80804</Address>
               <Offsets>
                 <Offset>230</Offset>
-                <Offset>C</Offset>
-                <Offset>24C</Offset>
-                <Offset>110</Offset>
-                <Offset>414</Offset>
-                <Offset>0</Offset>
-                <Offset>24</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>2567</ID>
               <Description>"[Server] Armor"</Description>
-              <LastState Value="100" RealAddress="6EE4F890"/>
+              <LastState Value="100" RealAddress="836D8310"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Byte</VariableType>
-              <Address>"server.dll"+00A1B3C0</Address>
+              <Address>server.dll+A80804</Address>
               <Offsets>
-                <Offset>FA0</Offset>
-                <Offset>C</Offset>
-                <Offset>24C</Offset>
-                <Offset>110</Offset>
-                <Offset>414</Offset>
-                <Offset>0</Offset>
-                <Offset>24</Offset>
+                <Offset>fa0</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>2570</ID>
               <Description>"[Server] Money (2^16)"</Description>
-              <LastState Value="8500" RealAddress="6EE51294"/>
+              <LastState Value="1750" RealAddress="836D9D14"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>2 Bytes</VariableType>
-              <Address>"server.dll"+00A1B3C0</Address>
+              <Address>server.dll+A80804</Address>
               <Offsets>
-                <Offset>29A4</Offset>
-                <Offset>C</Offset>
-                <Offset>24C</Offset>
-                <Offset>110</Offset>
-                <Offset>414</Offset>
-                <Offset>0</Offset>
-                <Offset>24</Offset>
+                <Offset>29a4</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>2617</ID>
               <Description>"[Server] Gravity"</Description>
-              <LastState Value="0" RealAddress="6EE4EA74"/>
+              <LastState Value="0" RealAddress="836D74F4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>"server.dll"+00A1B3C0</Address>
+              <Address>server.dll+A80804</Address>
               <Offsets>
                 <Offset>184</Offset>
-                <Offset>c</Offset>
-                <Offset>24c</Offset>
-                <Offset>110</Offset>
-                <Offset>414</Offset>
-                <Offset>0</Offset>
-                <Offset>24</Offset>
               </Offsets>
               <Hotkeys>
                 <Hotkey>
@@ -173,10 +144,10 @@
             <CheatEntry>
               <ID>2926</ID>
               <Description>"[Client] Pitch (up-down)"</Description>
-              <LastState Value="16.66679001" RealAddress="13956070"/>
+              <LastState Value="8,343129158" RealAddress="131E6070"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>engine.dll+588FE4</Address>
+              <Address>engine.dll+588FEC</Address>
               <Offsets>
                 <Offset>4d90</Offset>
               </Offsets>
@@ -184,10 +155,10 @@
             <CheatEntry>
               <ID>2927</ID>
               <Description>"[Client] Yaw (left-right)"</Description>
-              <LastState Value="13.14684963" RealAddress="13956074"/>
+              <LastState Value="-163,6146851" RealAddress="131E6074"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>engine.dll+588FE4</Address>
+              <Address>engine.dll+588FEC</Address>
               <Offsets>
                 <Offset>4d94</Offset>
               </Offsets>
@@ -205,10 +176,10 @@
             <CheatEntry>
               <ID>2384</ID>
               <Description>"[Client] X coord"</Description>
-              <LastState Value="-888.7366943" RealAddress="6C63A2A0"/>
+              <LastState Value="-659,4676514" RealAddress="835AEBF0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>client.dll+4DA20DC</Address>
+              <Address>client.dll+4DA215C</Address>
               <Offsets>
                 <Offset>a0</Offset>
               </Offsets>
@@ -216,10 +187,10 @@
             <CheatEntry>
               <ID>2385</ID>
               <Description>"[Client] Y coord"</Description>
-              <LastState Value="-829.9020386" RealAddress="6C63A2A4"/>
+              <LastState Value="-802,6178589" RealAddress="835AEBF4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>client.dll+4DA20DC</Address>
+              <Address>client.dll+4DA215C</Address>
               <Offsets>
                 <Offset>a4</Offset>
               </Offsets>
@@ -227,10 +198,10 @@
             <CheatEntry>
               <ID>2386</ID>
               <Description>"[Client] Z coord"</Description>
-              <LastState Value="116.502655" RealAddress="6C63A2A8"/>
+              <LastState Value="116,4332886" RealAddress="835AEBF8"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>client.dll+4DA20DC</Address>
+              <Address>client.dll+4DA215C</Address>
               <Offsets>
                 <Offset>a8</Offset>
               </Offsets>
@@ -238,52 +209,34 @@
             <CheatEntry>
               <ID>2545</ID>
               <Description>"[Server] X coord"</Description>
-              <LastState Value="-888.7366943" RealAddress="6EE4EACC"/>
+              <LastState Value="-659,4676514" RealAddress="836D754C"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>"server.dll"+00A1B3C0</Address>
+              <Address>server.dll+A80804</Address>
               <Offsets>
                 <Offset>1dc</Offset>
-                <Offset>C</Offset>
-                <Offset>24C</Offset>
-                <Offset>110</Offset>
-                <Offset>414</Offset>
-                <Offset>0</Offset>
-                <Offset>24</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>2544</ID>
               <Description>"[Server] Y coord"</Description>
-              <LastState Value="-829.9020386" RealAddress="6EE4EAD0"/>
+              <LastState Value="-802,6178589" RealAddress="836D7550"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>"server.dll"+00A1B3C0</Address>
+              <Address>server.dll+A80804</Address>
               <Offsets>
                 <Offset>1e0</Offset>
-                <Offset>C</Offset>
-                <Offset>24C</Offset>
-                <Offset>110</Offset>
-                <Offset>414</Offset>
-                <Offset>0</Offset>
-                <Offset>24</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>2543</ID>
               <Description>"[Server] Z coord"</Description>
-              <LastState Value="116.502655" RealAddress="6EE4EAD4"/>
+              <LastState Value="116,4332886" RealAddress="836D7554"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>"server.dll"+00A1B3C0</Address>
+              <Address>server.dll+A80804</Address>
               <Offsets>
                 <Offset>1e4</Offset>
-                <Offset>C</Offset>
-                <Offset>24C</Offset>
-                <Offset>110</Offset>
-                <Offset>414</Offset>
-                <Offset>0</Offset>
-                <Offset>24</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
@@ -297,56 +250,12 @@
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
-              <ID>2629</ID>
-              <Description>"Infinite Ammo 1"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-//code from here to '[DISABLE]' will be used to enable the cheat
-alloc(newmem,2048)
-label(returnhere)
-label(originalcode)
-label(exit)
-
-newmem: //this is allocated memory, you have read,write,execute access
-nop
-nop
-
-originalcode:
-//mov [ebx],esi
-pop edi
-pop esi
-mov al,01
-
-exit:
-jmp returnhere
-
-"server.dll"+57E7DC:
-jmp newmem
-nop
-returnhere:
-
-
- 
- 
-[DISABLE]
-//code from here till the end of the code will be used to disable the cheat
-dealloc(newmem)
-"server.dll"+57E7DC:
-mov [ebx],esi
-pop edi
-pop esi
-mov al,01
-//Alt: db 89 33 5F 5E B0 01
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
               <ID>2637</ID>
               <Description>"[Client] Curr. Ammo"</Description>
-              <LastState Value="122" RealAddress="3B8055A4"/>
+              <LastState Value="17" RealAddress="2D30F504"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Byte</VariableType>
-              <Address>client.dll+4DA20DC</Address>
+              <Address>client.dll+4DA215C</Address>
               <Offsets>
                 <Offset>3264</Offset>
                 <Offset>68</Offset>
@@ -356,10 +265,10 @@ mov al,01
             <CheatEntry>
               <ID>2638</ID>
               <Description>"[Client] Curr. Magazines"</Description>
-              <LastState Value="120" RealAddress="3B8055AC"/>
+              <LastState Value="120" RealAddress="2D30F50C"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>client.dll+4DA20DC</Address>
+              <Address>client.dll+4DA215C</Address>
               <Offsets>
                 <Offset>326C</Offset>
                 <Offset>68</Offset>
@@ -369,10 +278,10 @@ mov al,01
             <CheatEntry>
               <ID>2627</ID>
               <Description>"[Server] Curr. Ammo"</Description>
-              <LastState Value="122" RealAddress="3B668EE4"/>
+              <LastState Value="17" RealAddress="2F7B98A4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Byte</VariableType>
-              <Address>server.dll+A7F804</Address>
+              <Address>server.dll+A80804</Address>
               <Offsets>
                 <Offset>964</Offset>
                 <Offset>54</Offset>
@@ -382,10 +291,10 @@ mov al,01
             <CheatEntry>
               <ID>2628</ID>
               <Description>"[Server] Curr. Magazines"</Description>
-              <LastState Value="120" RealAddress="3B668EEC"/>
+              <LastState Value="120" RealAddress="2F7B98AC"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Byte</VariableType>
-              <Address>server.dll+A7F804</Address>
+              <Address>server.dll+A80804</Address>
               <Offsets>
                 <Offset>96C</Offset>
                 <Offset>54</Offset>
@@ -415,18 +324,19 @@ mov al,01
             <CheatEntry>
               <ID>2929</ID>
               <Description>"[Client] Entj Obj Ptr"</Description>
-              <LastState Value="32DEBA70" RealAddress="292C20EC"/>
+              <LastState Value="90B5AE70" RealAddress="5BAF216C"/>
               <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>client.dll+4DA20EC</Address>
+              <Address>client.dll+4DA216C</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>2574</ID>
               <Description>"[Client] Health"</Description>
-              <LastState Value="0" RealAddress="32DEBB70"/>
+              <LastState Value="74" RealAddress="90B5AF70"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>2 Bytes</VariableType>
-              <Address>client.dll+4DA20EC</Address>
+              <Address>client.dll+4DA216C</Address>
               <Offsets>
                 <Offset>100</Offset>
               </Offsets>
@@ -434,10 +344,10 @@ mov al,01
             <CheatEntry>
               <ID>2577</ID>
               <Description>"[Client] Armor"</Description>
-              <LastState Value="0" RealAddress="32DF6DEC"/>
+              <LastState Value="84" RealAddress="90B661EC"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>2 Bytes</VariableType>
-              <Address>client.dll+4DA20EC</Address>
+              <Address>client.dll+4DA216C</Address>
               <Offsets>
                 <Offset>B37C</Offset>
               </Offsets>
@@ -445,11 +355,11 @@ mov al,01
             <CheatEntry>
               <ID>2548</ID>
               <Description>"[Server] Ent Obj Ptr"</Description>
-              <LastState Value="7AA39A5C" RealAddress="6EE1A8B0"/>
+              <LastState Value="56969AE4" RealAddress="82BB3CD0"/>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>server.dll+A7F81C</Address>
+              <Address>server.dll+A8081C</Address>
               <Offsets>
                 <Offset>0</Offset>
               </Offsets>
@@ -457,10 +367,10 @@ mov al,01
             <CheatEntry>
               <ID>2634</ID>
               <Description>"[Server] Health"</Description>
-              <LastState Value="100" RealAddress="6EE1AAE0"/>
+              <LastState Value="74" RealAddress="82BB3F00"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>2 Bytes</VariableType>
-              <Address>server.dll+A7F81C</Address>
+              <Address>server.dll+A8081C</Address>
               <Offsets>
                 <Offset>230</Offset>
               </Offsets>
@@ -468,10 +378,10 @@ mov al,01
             <CheatEntry>
               <ID>2635</ID>
               <Description>"[Server] Armor"</Description>
-              <LastState Value="100" RealAddress="6EE1B850"/>
+              <LastState Value="84" RealAddress="82BB4C70"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Byte</VariableType>
-              <Address>server.dll+A7F81C</Address>
+              <Address>server.dll+A8081C</Address>
               <Offsets>
                 <Offset>FA0</Offset>
               </Offsets>
@@ -482,17 +392,17 @@ mov al,01
           <ID>2581</ID>
           <Description>"Coordinates"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <Color>FF00FF</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>2428</ID>
               <Description>"[Client] X Pos"</Description>
-              <LastState Value="436.743103" RealAddress="32DEBB10"/>
+              <LastState Value="-760,6630249" RealAddress="90B5AF10"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>client.dll+4DA20EC</Address>
+              <Address>client.dll+4DA216C</Address>
               <Offsets>
                 <Offset>a0</Offset>
               </Offsets>
@@ -500,10 +410,10 @@ mov al,01
             <CheatEntry>
               <ID>2427</ID>
               <Description>"[Client] Y Pos"</Description>
-              <LastState Value="2493.486816" RealAddress="32DEBB14"/>
+              <LastState Value="-836,1740112" RealAddress="90B5AF14"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>client.dll+4DA20EC</Address>
+              <Address>client.dll+4DA216C</Address>
               <Offsets>
                 <Offset>a4</Offset>
               </Offsets>
@@ -511,10 +421,10 @@ mov al,01
             <CheatEntry>
               <ID>2575</ID>
               <Description>"[Client] Z Pos"</Description>
-              <LastState Value="1382.578491" RealAddress="32DEBB18"/>
+              <LastState Value="117,071785" RealAddress="90B5AF18"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>client.dll+4DA20EC</Address>
+              <Address>client.dll+4DA216C</Address>
               <Offsets>
                 <Offset>a8</Offset>
               </Offsets>
@@ -522,10 +432,10 @@ mov al,01
             <CheatEntry>
               <ID>2578</ID>
               <Description>"[Server] X Pos"</Description>
-              <LastState Value="258.1589966" RealAddress="6EE1AA8C"/>
+              <LastState Value="-760,6630249" RealAddress="82BB3EAC"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>server.dll+A7F81C</Address>
+              <Address>server.dll+A8081C</Address>
               <Offsets>
                 <Offset>1dc</Offset>
               </Offsets>
@@ -533,10 +443,10 @@ mov al,01
             <CheatEntry>
               <ID>2579</ID>
               <Description>"[Server] Y Pos"</Description>
-              <LastState Value="2480.550049" RealAddress="6EE1AA90"/>
+              <LastState Value="-836,1740112" RealAddress="82BB3EB0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>server.dll+A7F81C</Address>
+              <Address>server.dll+A8081C</Address>
               <Offsets>
                 <Offset>1e0</Offset>
               </Offsets>
@@ -544,10 +454,10 @@ mov al,01
             <CheatEntry>
               <ID>2580</ID>
               <Description>"[Server] Z Pos"</Description>
-              <LastState Value="-121.0758209" RealAddress="6EE1AA94"/>
+              <LastState Value="117,071785" RealAddress="82BB3EB4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>server.dll+A7F81C</Address>
+              <Address>server.dll+A8081C</Address>
               <Offsets>
                 <Offset>1e4</Offset>
               </Offsets>
@@ -557,10 +467,10 @@ mov al,01
         <CheatEntry>
           <ID>2426</ID>
           <Description>"m_bDormant (0 false anything else is true)"</Description>
-          <LastState Value="256" RealAddress="32DEBB5C"/>
+          <LastState Value="0" RealAddress="90B5AF5C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>client.dll+4DA20EC</Address>
+          <Address>client.dll+4DA216C</Address>
           <Offsets>
             <Offset>EC</Offset>
           </Offsets>
