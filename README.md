@@ -7,3 +7,6 @@
 As I progress on my learning journey to create a fully functional ESP&Aimbot for <b>Counter-Strike: Global Offensive</b>
 <br>
 I will upload the files I'm working on to lead my plan to success. 
+
+## License
+This project is licensed under GPLv3.
