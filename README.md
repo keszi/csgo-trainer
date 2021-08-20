@@ -9,4 +9,4 @@ As I progress on my learning journey to create a fully functional ESP&Aimbot for
 I will upload the files I'm working on to lead my plan to success. 
 
 ## License
-This project is licensed under GPLv3.
+This project is licensed under GPLv3. Please check the [license file](LICENSE) for details.
