@@ -1,6 +1,6 @@
-#CS:GO External Trainer
+# CS:GO External Trainer
 <p align="center">
-  <img alt="Project Logo" src="https://imgur.com/JhT6DFl.png" width="200">
+  <img alt="Project Logo" src="https://imgur.com/JhT6DFl.png" width="800">
 </p>
 
 ## About this project
