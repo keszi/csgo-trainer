@@ -6,7 +6,7 @@
 ## About this project
 As I progress on my learning journey to create a fully functional trainer for <b>Counter-Strike: Global Offensive</b>
 <br>
-I will upload all the files which is needed to make successfully this project.
+I will upload all the files needed to make this project successfully.
 
 ## License
 This project is licensed under GPLv3. Please check the [license file](LICENSE) for details.
