@@ -4,9 +4,9 @@
 </p>
 
 ## About this project
-As I progress on my learning journey to create a fully functional ESP&Aimbot for <b>Counter-Strike: Global Offensive</b>
+As I progress on my learning journey to create a fully functional trainer for <b>Counter-Strike: Global Offensive</b>
 <br>
-I will upload the files I'm working on to lead my plan to success. 
+I will upload all the files which is needed to make successfully this project.
 
 ## License
 This project is licensed under GPLv3. Please check the [license file](LICENSE) for details.
