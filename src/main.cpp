@@ -33,7 +33,6 @@ int main()
 
 	while (GetExitCodeProcess(folyamatCsatlakozas, &kilepesKod) && kilepesKod == STILL_ACTIVE)
 	{
-
 		if (GetAsyncKeyState(VK_F1) & 1)
 		{
 			//csalasEngedelyezve = !csalasEngedelyezve;
