@@ -9,7 +9,7 @@ int main()
 
 	DWORD folyamatAzonosito = folyamatAzonositoSzerzes(jatekNeve);
 
-	uintptr_t modulCim = modulKezdoCimSzerzes(folyamatAzonosito, modulNeve);
+	uintptr_t modulCim = modulKezdoCimSzerzes(folyamatAzonosito,modulNeve);
 
 	HANDLE folyamatCsatlakozas = OpenProcess(PROCESS_ALL_ACCESS, NULL, folyamatAzonosito);
 
@@ -20,7 +20,7 @@ int main()
 
 	BYTE* eletCim{ helyiJatekosCim + eletOffset };
 	
-	short eredetiElet;
+	short eredetiElet{100};
 	static short modositottElet{ 500 };
 
 	bool csalasEngedelyezve{ false };
@@ -40,6 +40,7 @@ int main()
 		}
 		if(GetAsyncKeyState(VK_END))
 		{
+			WriteProcessMemory(folyamatCsatlakozas, eletCim, &eredetiElet, sizeof(eredetiElet), nullptr);
 			break;
 		}
 	}
