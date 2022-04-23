@@ -38,7 +38,6 @@ int main()
 		{
 			//csalasEngedelyezve = !csalasEngedelyezve;
 			WriteProcessMemory(folyamatCsatlakozas, eletCim, &modositottElet, sizeof(eredetiElet), nullptr);
-		
 		}
 		if(GetAsyncKeyState(VK_END))
 		{
